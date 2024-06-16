@@ -40,7 +40,7 @@ function page() {
                 ) : (
                     <>
                         <h3 className='text-3xl'>{pokeData.name}</h3>
-                        <Image src={pokeData.sprites?.other.home.front_default} width={300} height={300} alt={pokeData.name} />
+                        <Image src={pokeData.sprites?.other.dream_world.front_default} width={300} height={300} alt={pokeData.name} />
                         <div className='mt-5 '>
                             <p className='my-3'>Weight: {pokeData.weight}</p>
                             <p className='my-3'>
