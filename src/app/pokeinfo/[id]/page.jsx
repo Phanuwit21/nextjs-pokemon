@@ -40,7 +40,7 @@ function PokeInfo() {
                 ) : (
                     <>
                         <h3 className='text-3xl'>{poke.name}</h3>
-                        <Image src={poke.sprites?.other.home.front_default} width={300} height={300} alt={poke.name} />
+                        <Image src={poke.sprites?.other.dream_world.front_default} width={300} height={300} alt={poke.name} />
                         <div className='mt-5 '>
                             <p className='my-3'>Weight: {poke.weight}</p>
                             <p className='my-3'>
